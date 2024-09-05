@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stránka</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container wrap">
+          <p class="logo">LOGO</p>
+          <div class="hamburger-menu" onclick="openNav()">
+            <div class="bar"></div>
+          </div>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <div class="overlay-top">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+              </div>
+              <div class="overlay-bottom">
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="big-title translate" data-speed="0.1">Discover.</h1>
+
+      <div class="slider translate wrap">
+        <div class="sliderText">
+          <b>Create your space</b>
+          <p>Lorem ipsum sit ametadi pisicing elit.</p>
+        </div>
+
+        <div class="sliderText">
+          <b>Travel across Iceland</b>
+          <p>Lorem ipsum dolor consectetur elit.</p>
+        </div>
+
+        <div class="sliderText">
+          <b>Plan your perfect holiday</b>
+          <p>Lorem ipsum dolor, sitamet consectetur</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="shadow"></div>
+      <!-- shadow transition header-about -->
+      <div class="container">
+        <div class="content opacity">
+          <h2 class="title">
+            About
+            <div class="border"></div>
+          </h2>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore
+            voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur
+            soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.
+          </p>
+        </div>
+
+        <div class="imgContainer opacity">
+          <img src="img/0.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div class="gallery">
+      <h3>GALLERY</h3>
+      <div class="row">
+        <div class="column">
+          <img src="img/gal3.jpg" />
+          <img src="img/gal4.jpg" />
+        </div>
+        <div class="column">
+          <img src="img/gal5.jpg" />
+          <img src="img/gal6.jpg" />
+        </div>
+        <div class="column">
+          <img src="img/gal7.jpg" />
+          <img src="img/gal8.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax">
+      <!-- Second container -->
+      <div class="paralax_container container_image" aria-hidden="true">
+        <div class="title_wrapper">
+          <h1>The Great Outdoors</h1>
+        </div>
+      </div>
+    </div>
+
+    <section class="cars">
+      <div class="wrap">
+        <div class="blok">
+          <img class="onasimg" src="img/5.jpg" alt="auto" />
+          <p class="text2">
+            <span class="nadpisgal">NADPIS</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum
+            eros mauris, in aliquam arcu imperdiet suscipit. Maecenas sodales viverra orci, interdum tincidunt urna porttitor
+            vitae. Phasellus vestibulum fermentum felis, non eleifend purus dapibus eu. Sed vitae pharetra est. Donec fringilla
+            ante at viverra porta. Fusce tempus ante et rutrum porttitor. Nam elementum at mauris a vestibulum.<br /><button
+              class="viac"
+            >
+              Viac
+            </button>
+          </p>
+        </div>
+
+        <div class="blok">
+          <p class="text2">
+            <span class="nadpisgal">NADPIS</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum
+            eros mauris, in aliquam arcu imperdiet suscipit. Maecenas sodales viverra orci, interdum tincidunt urna porttitor
+            vitae. Phasellus vestibulum fermentum felis, non eleifend purus dapibus eu. Sed vitae pharetra est. Donec fringilla
+            ante at viverra porta. Fusce tempus ante et rutrum porttitor. Nam elementum at mauris a vestibulum.<br /><button
+              class="viac"
+            >
+              Viac
+            </button>
+          </p>
+
+          <img class="onasimg" src="img/9.jpg" alt="auto" />
+        </div>
+
+        <div class="blok">
+          <img class="onasimg" src="img/7.jpg" alt="auto" />
+          <p class="text2">
+            <span class="nadpisgal">NADPIS</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum
+            eros mauris, in aliquam arcu imperdiet suscipit. Maecenas sodales viverra orci, interdum tincidunt urna porttitor
+            vitae. Phasellus vestibulum fermentum felis, non eleifend purus dapibus eu. Sed vitae pharetra est. Donec fringilla
+            ante at viverra porta. Fusce tempus ante et rutrum porttitor. Nam elementum at mauris a vestibulum.<br /><button
+              class="viac"
+            >
+              Viac
+            </button>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>Visit our store</li>
+        <li>Street 18</li>
+        <li>City, NL</li>
+        <li>Phone: 055/678 50 80</li>
+      </ul>
+      <ul>
+        <li>Navigation</li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <ul>
+        <li>Legal</li>
+        <li>Shipping & Returns</li>
+        <li>Terms</li>
+      </ul>
+      <ul>
+        <li>Social</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>&copy;2024 Discover</li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
